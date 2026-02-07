@@ -11,12 +11,12 @@ int isEmptyArray(Array A){
     return A.length == 0;
 }
 
-/* allocate (simbolik saja untuk laporan) */
+/* allocate */
 void allocate(int x){
     printf("Alokasi memori untuk data %d (array statis)\n", x);
 }
 
-/* deallocate (simbolik saja) */
+/* deallocate  */
 void deallocate(int x){
     printf("Dealokasi data %d (array statis)\n", x);
 }
